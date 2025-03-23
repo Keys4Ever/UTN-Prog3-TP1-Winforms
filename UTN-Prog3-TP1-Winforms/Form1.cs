@@ -26,6 +26,13 @@ namespace UTN_Prog3_TP1_Winforms
             form2.Show();
         }
 
+        private void btnEjercicio2_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+
+            form3.Show();
+        }
+
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
 
@@ -34,6 +41,6 @@ namespace UTN_Prog3_TP1_Winforms
         private void label1_Click(object sender, EventArgs e)
         {
 
-        }
+        }  
     }
 }

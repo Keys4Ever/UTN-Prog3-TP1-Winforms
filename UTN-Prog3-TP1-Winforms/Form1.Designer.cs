@@ -31,6 +31,7 @@ namespace UTN_Prog3_TP1_Winforms
         {
             this.btnEjercicio1 = new System.Windows.Forms.Button();
             this.lblIntegrantes = new System.Windows.Forms.Label();
+            this.btnEjercicio2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEjercicio1
@@ -54,11 +55,22 @@ namespace UTN_Prog3_TP1_Winforms
             this.lblIntegrantes.Text = "Integrantes:";
             this.lblIntegrantes.Click += new System.EventHandler(this.label1_Click);
             // 
+            // btnEjercicio2
+            // 
+            this.btnEjercicio2.Location = new System.Drawing.Point(217, 60);
+            this.btnEjercicio2.Name = "btnEjercicio2";
+            this.btnEjercicio2.Size = new System.Drawing.Size(116, 41);
+            this.btnEjercicio2.TabIndex = 2;
+            this.btnEjercicio2.Text = "Ejercicio 2";
+            this.btnEjercicio2.UseVisualStyleBackColor = true;
+            this.btnEjercicio2.Click += new System.EventHandler(this.btnEjercicio2_Click);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(483, 450);
+            this.ClientSize = new System.Drawing.Size(611, 463);
+            this.Controls.Add(this.btnEjercicio2);
             this.Controls.Add(this.lblIntegrantes);
             this.Controls.Add(this.btnEjercicio1);
             this.Name = "FormPrincipal";
@@ -74,6 +86,7 @@ namespace UTN_Prog3_TP1_Winforms
 
         private System.Windows.Forms.Button btnEjercicio1;
         private System.Windows.Forms.Label lblIntegrantes;
+        private System.Windows.Forms.Button btnEjercicio2;
     }
 }
 
