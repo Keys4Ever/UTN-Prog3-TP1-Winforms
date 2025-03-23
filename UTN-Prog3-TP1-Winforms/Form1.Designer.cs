@@ -1,7 +1,7 @@
 ﻿
 namespace UTN_Prog3_TP1_Winforms
 {
-    partial class Form1
+    partial class FormPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,6 +30,7 @@ namespace UTN_Prog3_TP1_Winforms
         private void InitializeComponent()
         {
             this.btnEjercicio1 = new System.Windows.Forms.Button();
+            this.lblIntegrantes = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEjercicio1
@@ -42,22 +43,37 @@ namespace UTN_Prog3_TP1_Winforms
             this.btnEjercicio1.UseVisualStyleBackColor = true;
             this.btnEjercicio1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // lblIntegrantes
+            // 
+            this.lblIntegrantes.AutoSize = true;
+            this.lblIntegrantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIntegrantes.Location = new System.Drawing.Point(42, 150);
+            this.lblIntegrantes.Name = "lblIntegrantes";
+            this.lblIntegrantes.Size = new System.Drawing.Size(104, 22);
+            this.lblIntegrantes.TabIndex = 1;
+            this.lblIntegrantes.Text = "Integrantes:";
+            this.lblIntegrantes.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(483, 450);
+            this.Controls.Add(this.lblIntegrantes);
             this.Controls.Add(this.btnEjercicio1);
-            this.Name = "Form1";
+            this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Formulario Principal";
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnEjercicio1;
+        private System.Windows.Forms.Label lblIntegrantes;
     }
 }
 

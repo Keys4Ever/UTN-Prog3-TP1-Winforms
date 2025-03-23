@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UTN_Prog3_TP1_Winforms
 {
-    public partial class Form1 : Form
+    public partial class FormPrincipal : Form
     {
-        public Form1()
+        public FormPrincipal()
         {
             InitializeComponent();
 
@@ -24,6 +24,16 @@ namespace UTN_Prog3_TP1_Winforms
             Form2 form2 = new Form2();
 
             form2.Show();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
