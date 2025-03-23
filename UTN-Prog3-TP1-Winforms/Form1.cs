@@ -16,7 +16,7 @@ namespace UTN_Prog3_TP1_Winforms
         {
             InitializeComponent();
 
-            //cometario de prueba, jose
+            //cometario de prueba, josess
         }
     }
 }
