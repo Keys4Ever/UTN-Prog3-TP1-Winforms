@@ -16,5 +16,10 @@ namespace UTN_Prog3_TP1_Winforms
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

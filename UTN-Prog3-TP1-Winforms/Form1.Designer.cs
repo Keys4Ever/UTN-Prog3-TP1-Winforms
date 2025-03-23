@@ -35,11 +35,14 @@ namespace UTN_Prog3_TP1_Winforms
             this.textGonzaloCubilla = new System.Windows.Forms.Label();
             this.textValentínLópez = new System.Windows.Forms.Label();
             this.textCalvaIgnacio = new System.Windows.Forms.Label();
+            this.textValentinOscar = new System.Windows.Forms.Label();
+            this.textDellaVecchiaJoaquin = new System.Windows.Forms.Label();
+            this.textParedezJose = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEjercicio1
             // 
-            this.btnEjercicio1.Location = new System.Drawing.Point(46, 60);
+            this.btnEjercicio1.Location = new System.Drawing.Point(30, 60);
             this.btnEjercicio1.Name = "btnEjercicio1";
             this.btnEjercicio1.Size = new System.Drawing.Size(116, 41);
             this.btnEjercicio1.TabIndex = 0;
@@ -56,11 +59,10 @@ namespace UTN_Prog3_TP1_Winforms
             this.lblIntegrantes.Size = new System.Drawing.Size(104, 22);
             this.lblIntegrantes.TabIndex = 1;
             this.lblIntegrantes.Text = "Integrantes:";
-      
             // 
             // btnEjercicio2
             // 
-            this.btnEjercicio2.Location = new System.Drawing.Point(217, 60);
+            this.btnEjercicio2.Location = new System.Drawing.Point(190, 60);
             this.btnEjercicio2.Name = "btnEjercicio2";
             this.btnEjercicio2.Size = new System.Drawing.Size(116, 41);
             this.btnEjercicio2.TabIndex = 2;
@@ -71,40 +73,71 @@ namespace UTN_Prog3_TP1_Winforms
             // textGonzaloCubilla
             // 
             this.textGonzaloCubilla.AutoSize = true;
-            this.textGonzaloCubilla.Font = new System.Drawing.Font("Minecraftia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textGonzaloCubilla.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textGonzaloCubilla.Location = new System.Drawing.Point(154, 181);
             this.textGonzaloCubilla.Name = "textGonzaloCubilla";
-            this.textGonzaloCubilla.Size = new System.Drawing.Size(163, 26);
+            this.textGonzaloCubilla.Size = new System.Drawing.Size(128, 18);
             this.textGonzaloCubilla.TabIndex = 3;
             this.textGonzaloCubilla.Text = "Cubilla Gonzalo";
-           
             // 
             // textValentínLópez
             // 
             this.textValentínLópez.AutoSize = true;
-            this.textValentínLópez.Font = new System.Drawing.Font("Minecraftia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textValentínLópez.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textValentínLópez.Location = new System.Drawing.Point(154, 207);
             this.textValentínLópez.Name = "textValentínLópez";
-            this.textValentínLópez.Size = new System.Drawing.Size(165, 26);
+            this.textValentínLópez.Size = new System.Drawing.Size(123, 18);
             this.textValentínLópez.TabIndex = 4;
             this.textValentínLópez.Text = "López Valentín ";
-          
             // 
             // textCalvaIgnacio
             // 
             this.textCalvaIgnacio.AutoSize = true;
-            this.textCalvaIgnacio.Font = new System.Drawing.Font("Minecraftia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCalvaIgnacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textCalvaIgnacio.Location = new System.Drawing.Point(154, 233);
             this.textCalvaIgnacio.Name = "textCalvaIgnacio";
-            this.textCalvaIgnacio.Size = new System.Drawing.Size(146, 26);
+            this.textCalvaIgnacio.Size = new System.Drawing.Size(109, 18);
             this.textCalvaIgnacio.TabIndex = 5;
             this.textCalvaIgnacio.Text = "Calva Ignacio";
+            // 
+            // textValentinOscar
+            // 
+            this.textValentinOscar.AutoSize = true;
+            this.textValentinOscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textValentinOscar.Location = new System.Drawing.Point(154, 310);
+            this.textValentinOscar.Name = "textValentinOscar";
+            this.textValentinOscar.Size = new System.Drawing.Size(169, 18);
+            this.textValentinOscar.TabIndex = 8;
+            this.textValentinOscar.Text = "Valentin Oscar Lopez";
+            // 
+            // textDellaVecchiaJoaquin
+            // 
+            this.textDellaVecchiaJoaquin.AutoSize = true;
+            this.textDellaVecchiaJoaquin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textDellaVecchiaJoaquin.Location = new System.Drawing.Point(154, 284);
+            this.textDellaVecchiaJoaquin.Name = "textDellaVecchiaJoaquin";
+            this.textDellaVecchiaJoaquin.Size = new System.Drawing.Size(174, 18);
+            this.textDellaVecchiaJoaquin.TabIndex = 7;
+            this.textDellaVecchiaJoaquin.Text = "Della Vecchia Joaquín";
+            // 
+            // textParedezJose
+            // 
+            this.textParedezJose.AutoSize = true;
+            this.textParedezJose.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textParedezJose.Location = new System.Drawing.Point(154, 258);
+            this.textParedezJose.Name = "textParedezJose";
+            this.textParedezJose.Size = new System.Drawing.Size(112, 18);
+            this.textParedezJose.TabIndex = 6;
+            this.textParedezJose.Text = "Paredez José";
             // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 463);
+            this.ClientSize = new System.Drawing.Size(498, 425);
+            this.Controls.Add(this.textValentinOscar);
+            this.Controls.Add(this.textDellaVecchiaJoaquin);
+            this.Controls.Add(this.textParedezJose);
             this.Controls.Add(this.textCalvaIgnacio);
             this.Controls.Add(this.textValentínLópez);
             this.Controls.Add(this.textGonzaloCubilla);
@@ -114,7 +147,6 @@ namespace UTN_Prog3_TP1_Winforms
             this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Principal";
-     
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,6 +160,9 @@ namespace UTN_Prog3_TP1_Winforms
         private System.Windows.Forms.Label textGonzaloCubilla;
         private System.Windows.Forms.Label textValentínLópez;
         private System.Windows.Forms.Label textCalvaIgnacio;
+        private System.Windows.Forms.Label textValentinOscar;
+        private System.Windows.Forms.Label textDellaVecchiaJoaquin;
+        private System.Windows.Forms.Label textParedezJose;
     }
 }
 
