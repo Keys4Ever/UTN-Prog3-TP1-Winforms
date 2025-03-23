@@ -29,13 +29,35 @@ namespace UTN_Prog3_TP1_Winforms
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnEjercicio1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnEjercicio1
+            // 
+            this.btnEjercicio1.Location = new System.Drawing.Point(46, 60);
+            this.btnEjercicio1.Name = "btnEjercicio1";
+            this.btnEjercicio1.Size = new System.Drawing.Size(116, 41);
+            this.btnEjercicio1.TabIndex = 0;
+            this.btnEjercicio1.Text = "Ejercicio 1";
+            this.btnEjercicio1.UseVisualStyleBackColor = true;
+            this.btnEjercicio1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(483, 450);
+            this.Controls.Add(this.btnEjercicio1);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnEjercicio1;
     }
 }
 
