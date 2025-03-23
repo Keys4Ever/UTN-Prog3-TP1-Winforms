@@ -32,15 +32,5 @@ namespace UTN_Prog3_TP1_Winforms
 
             form3.Show();
         }
-
-        private void FormPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }  
     }
 }
