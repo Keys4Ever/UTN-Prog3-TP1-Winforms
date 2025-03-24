@@ -106,9 +106,9 @@ namespace UTN_Prog3_TP1_Winforms
             this.textValentinOscar.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textValentinOscar.Location = new System.Drawing.Point(154, 310);
             this.textValentinOscar.Name = "textValentinOscar";
-            this.textValentinOscar.Size = new System.Drawing.Size(174, 19);
+            this.textValentinOscar.Size = new System.Drawing.Size(216, 19);
             this.textValentinOscar.TabIndex = 8;
-            this.textValentinOscar.Text = "Acevedo Candela";
+            this.textValentinOscar.Text = "Valentin Oscar Lopez";
             // 
             // textDellaVecchiaJoaquin
             // 
