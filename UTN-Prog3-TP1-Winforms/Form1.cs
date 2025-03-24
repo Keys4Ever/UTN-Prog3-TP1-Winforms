@@ -16,12 +16,11 @@ namespace UTN_Prog3_TP1_Winforms
         {
             InitializeComponent();
 
-          
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            FmActividad1 form2 = new FmActividad1();
 
             form2.Show();
         }

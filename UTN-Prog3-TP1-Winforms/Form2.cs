@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UTN_Prog3_TP1_Winforms
 {
-    public partial class Form2 : Form
+    public partial class FmActividad1 : Form
     {
-        public Form2()
+        public FmActividad1()
         {
             InitializeComponent();
         }
