@@ -77,5 +77,18 @@ namespace UTN_Prog3_TP1_Winforms
 
 
         }
+
+        private void btnPasarItem_Click(object sender, EventArgs e)
+        {
+            if (lbValores.SelectedItem == null)
+            {
+                MessageBox.Show("Seleccione un nombre.");
+            }
+            else
+            {
+                lbSeleccionados.Items.Add(lbValores.SelectedItem);
+                lbValores.Items.Remove(lbValores.SelectedItem);   
+            }
+        }
     }
 }

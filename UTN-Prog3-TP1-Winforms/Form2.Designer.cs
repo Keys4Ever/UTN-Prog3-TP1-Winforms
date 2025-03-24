@@ -73,6 +73,7 @@
             this.btnPasarItem.TabIndex = 3;
             this.btnPasarItem.Text = ">";
             this.btnPasarItem.UseVisualStyleBackColor = true;
+            this.btnPasarItem.Click += new System.EventHandler(this.btnPasarItem_Click);
             // 
             // btnPasarItems
             // 
