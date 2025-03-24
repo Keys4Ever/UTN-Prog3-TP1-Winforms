@@ -38,6 +38,7 @@ namespace UTN_Prog3_TP1_Winforms
             this.textAcevedoCandela = new System.Windows.Forms.Label();
             this.textDellaVecchiaJoaquin = new System.Windows.Forms.Label();
             this.textParedezJose = new System.Windows.Forms.Label();
+            this.btnEjercicio3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEjercicio1
@@ -73,68 +74,79 @@ namespace UTN_Prog3_TP1_Winforms
             // textGonzaloCubilla
             // 
             this.textGonzaloCubilla.AutoSize = true;
-            this.textGonzaloCubilla.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textGonzaloCubilla.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textGonzaloCubilla.Location = new System.Drawing.Point(154, 181);
             this.textGonzaloCubilla.Name = "textGonzaloCubilla";
-            this.textGonzaloCubilla.Size = new System.Drawing.Size(155, 19);
+            this.textGonzaloCubilla.Size = new System.Drawing.Size(151, 22);
             this.textGonzaloCubilla.TabIndex = 3;
             this.textGonzaloCubilla.Text = "Cubilla Gonzalo";
             // 
             // textValentínLópez
             // 
             this.textValentínLópez.AutoSize = true;
-            this.textValentínLópez.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textValentínLópez.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textValentínLópez.Location = new System.Drawing.Point(154, 207);
             this.textValentínLópez.Name = "textValentínLópez";
-            this.textValentínLópez.Size = new System.Drawing.Size(154, 19);
+            this.textValentínLópez.Size = new System.Drawing.Size(148, 22);
             this.textValentínLópez.TabIndex = 4;
             this.textValentínLópez.Text = "López Valentín ";
             // 
             // textCalvaIgnacio
             // 
             this.textCalvaIgnacio.AutoSize = true;
-            this.textCalvaIgnacio.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCalvaIgnacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textCalvaIgnacio.Location = new System.Drawing.Point(154, 233);
             this.textCalvaIgnacio.Name = "textCalvaIgnacio";
-            this.textCalvaIgnacio.Size = new System.Drawing.Size(142, 19);
+            this.textCalvaIgnacio.Size = new System.Drawing.Size(131, 22);
             this.textCalvaIgnacio.TabIndex = 5;
             this.textCalvaIgnacio.Text = "Calva Ignacio";
             // 
             // textAcevedoCandela
             // 
             this.textAcevedoCandela.AutoSize = true;
-            this.textAcevedoCandela.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textAcevedoCandela.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textAcevedoCandela.Location = new System.Drawing.Point(154, 310);
             this.textAcevedoCandela.Name = "textAcevedoCandela";
-            this.textAcevedoCandela.Size = new System.Drawing.Size(174, 19);
+            this.textAcevedoCandela.Size = new System.Drawing.Size(167, 22);
             this.textAcevedoCandela.TabIndex = 8;
             this.textAcevedoCandela.Text = "Acevedo Candela";
             // 
             // textDellaVecchiaJoaquin
             // 
             this.textDellaVecchiaJoaquin.AutoSize = true;
-            this.textDellaVecchiaJoaquin.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textDellaVecchiaJoaquin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDellaVecchiaJoaquin.Location = new System.Drawing.Point(154, 284);
             this.textDellaVecchiaJoaquin.Name = "textDellaVecchiaJoaquin";
-            this.textDellaVecchiaJoaquin.Size = new System.Drawing.Size(213, 19);
+            this.textDellaVecchiaJoaquin.Size = new System.Drawing.Size(209, 22);
             this.textDellaVecchiaJoaquin.TabIndex = 7;
             this.textDellaVecchiaJoaquin.Text = "Della Vecchia Joaquín";
             // 
             // textParedezJose
             // 
             this.textParedezJose.AutoSize = true;
-            this.textParedezJose.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textParedezJose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textParedezJose.Location = new System.Drawing.Point(154, 258);
             this.textParedezJose.Name = "textParedezJose";
-            this.textParedezJose.Size = new System.Drawing.Size(135, 19);
+            this.textParedezJose.Size = new System.Drawing.Size(131, 22);
             this.textParedezJose.TabIndex = 6;
             this.textParedezJose.Text = "Paredez José";
+            // 
+            // btnEjercicio3
+            // 
+            this.btnEjercicio3.Location = new System.Drawing.Point(345, 60);
+            this.btnEjercicio3.Name = "btnEjercicio3";
+            this.btnEjercicio3.Size = new System.Drawing.Size(116, 41);
+            this.btnEjercicio3.TabIndex = 9;
+            this.btnEjercicio3.Text = "Ejercicio 3";
+            this.btnEjercicio3.UseVisualStyleBackColor = true;
+            this.btnEjercicio3.Click += new System.EventHandler(this.btnEjercicio3_Click);
             // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 425);
+            this.Controls.Add(this.btnEjercicio3);
             this.Controls.Add(this.textAcevedoCandela);
             this.Controls.Add(this.textDellaVecchiaJoaquin);
             this.Controls.Add(this.textParedezJose);
@@ -163,6 +175,7 @@ namespace UTN_Prog3_TP1_Winforms
         private System.Windows.Forms.Label textAcevedoCandela;
         private System.Windows.Forms.Label textDellaVecchiaJoaquin;
         private System.Windows.Forms.Label textParedezJose;
+        private System.Windows.Forms.Button btnEjercicio3;
     }
 }
 
