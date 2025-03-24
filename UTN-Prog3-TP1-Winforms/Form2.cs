@@ -26,7 +26,7 @@ namespace UTN_Prog3_TP1_Winforms
         {
             if (txtNombre.Text != "")
             {
-                lbValores.Items.Add(txtNombre.Text);
+                lbValores.Items.Add(txtNombre.Text.Trim());
                 txtNombre.Clear();
             }
             else
