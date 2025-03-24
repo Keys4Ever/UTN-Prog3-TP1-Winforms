@@ -35,7 +35,7 @@ namespace UTN_Prog3_TP1_Winforms
             this.textGonzaloCubilla = new System.Windows.Forms.Label();
             this.textValentínLópez = new System.Windows.Forms.Label();
             this.textCalvaIgnacio = new System.Windows.Forms.Label();
-            this.textValentinOscar = new System.Windows.Forms.Label();
+            this.textAcevedoCandela = new System.Windows.Forms.Label();
             this.textDellaVecchiaJoaquin = new System.Windows.Forms.Label();
             this.textParedezJose = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -100,15 +100,15 @@ namespace UTN_Prog3_TP1_Winforms
             this.textCalvaIgnacio.TabIndex = 5;
             this.textCalvaIgnacio.Text = "Calva Ignacio";
             // 
-            // textValentinOscar
+            // textAcevedoCandela
             // 
-            this.textValentinOscar.AutoSize = true;
-            this.textValentinOscar.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textValentinOscar.Location = new System.Drawing.Point(154, 310);
-            this.textValentinOscar.Name = "textValentinOscar";
-            this.textValentinOscar.Size = new System.Drawing.Size(216, 19);
-            this.textValentinOscar.TabIndex = 8;
-            this.textValentinOscar.Text = "Valentin Oscar Lopez";
+            this.textAcevedoCandela.AutoSize = true;
+            this.textAcevedoCandela.Font = new System.Drawing.Font("Minecraft", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textAcevedoCandela.Location = new System.Drawing.Point(154, 310);
+            this.textAcevedoCandela.Name = "textAcevedoCandela";
+            this.textAcevedoCandela.Size = new System.Drawing.Size(174, 19);
+            this.textAcevedoCandela.TabIndex = 8;
+            this.textAcevedoCandela.Text = "Acevedo Candela";
             // 
             // textDellaVecchiaJoaquin
             // 
@@ -135,7 +135,7 @@ namespace UTN_Prog3_TP1_Winforms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 425);
-            this.Controls.Add(this.textValentinOscar);
+            this.Controls.Add(this.textAcevedoCandela);
             this.Controls.Add(this.textDellaVecchiaJoaquin);
             this.Controls.Add(this.textParedezJose);
             this.Controls.Add(this.textCalvaIgnacio);
@@ -160,7 +160,7 @@ namespace UTN_Prog3_TP1_Winforms
         private System.Windows.Forms.Label textGonzaloCubilla;
         private System.Windows.Forms.Label textValentínLópez;
         private System.Windows.Forms.Label textCalvaIgnacio;
-        private System.Windows.Forms.Label textValentinOscar;
+        private System.Windows.Forms.Label textAcevedoCandela;
         private System.Windows.Forms.Label textDellaVecchiaJoaquin;
         private System.Windows.Forms.Label textParedezJose;
     }
