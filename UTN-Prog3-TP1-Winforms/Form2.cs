@@ -24,15 +24,58 @@ namespace UTN_Prog3_TP1_Winforms
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            if (txtNombre.Text != "")
+
+            bool esValido = true;
+
+
+            //validacion nombres vacios
+            if (txtNombre.Text.Trim() == "")
+            {
+                esValido = false;
+                MessageBox.Show("Debe ingresar un nombre primero.", "Atencion!");
+            }
+
+
+
+            //validacion nombres repetidos
+
+
+            foreach (var item in lbValores.Items) {
+
+                if (txtNombre.Text.Trim().ToUpper() == item.ToString().Trim().ToUpper())
+                {
+                    esValido = false;
+
+                }
+                    
+            }
+
+            foreach (var item in lbSeleccionados.Items)
+            {
+                if (txtNombre.Text.Trim().ToUpper() == item.ToString().Trim().ToUpper())
+                {
+                    esValido = false;
+                    
+                }
+
+            }
+
+            ///asi lo veo mas escalable al codigo, se pueden meter muchas validaciones y solo modificar el booleano
+
+            //si  no es valido, no lo acepta.
+            //si es valido, lo añade
+            if(!esValido)
+            {
+                MessageBox.Show("Debe ingresar un nombre que no este repetido");
+            }
+            else
             {
                 lbValores.Items.Add(txtNombre.Text.Trim());
                 txtNombre.Clear();
             }
-            else
-            {
-                MessageBox.Show("Debe ingresar un nombre primero.", "Atencion!");
-            }
+
+
+
         }
     }
 }
