@@ -21,5 +21,18 @@ namespace UTN_Prog3_TP1_Winforms
         {
 
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+            if (!string.IsNullOrWhiteSpace(txtNombre.Text))
+            {
+                lbValores.Items.Add(txtNombre.Text);
+            }
+            else {
+
+                MessageBox.Show("Por favor, antes de agregar debe ingresar un nombre, intente denuevo. :3", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
