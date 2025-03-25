@@ -83,6 +83,7 @@
             this.btnPasarItems.TabIndex = 4;
             this.btnPasarItems.Text = ">>";
             this.btnPasarItems.UseVisualStyleBackColor = true;
+            this.btnPasarItems.Click += new System.EventHandler(this.btnPasarItems_Click);
             // 
             // lbSeleccionados
             // 

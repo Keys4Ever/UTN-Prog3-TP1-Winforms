@@ -40,14 +40,15 @@ namespace UTN_Prog3_TP1_Winforms
             //validacion nombres repetidos
 
 
-            foreach (var item in lbValores.Items) {
+            foreach (var item in lbValores.Items)
+            {
 
                 if (txtNombre.Text.Trim().ToUpper() == item.ToString().Trim().ToUpper())
                 {
                     esValido = false;
 
                 }
-                    
+
             }
 
             foreach (var item in lbSeleccionados.Items)
@@ -55,7 +56,7 @@ namespace UTN_Prog3_TP1_Winforms
                 if (txtNombre.Text.Trim().ToUpper() == item.ToString().Trim().ToUpper())
                 {
                     esValido = false;
-                    
+
                 }
 
             }
@@ -64,7 +65,7 @@ namespace UTN_Prog3_TP1_Winforms
 
             //si  no es valido, no lo acepta.
             //si es valido, lo añade
-            if(!esValido)
+            if (!esValido)
             {
                 MessageBox.Show("Debe ingresar un nombre que no este repetido");
             }
@@ -87,8 +88,22 @@ namespace UTN_Prog3_TP1_Winforms
             else
             {
                 lbSeleccionados.Items.Add(lbValores.SelectedItem);
-                lbValores.Items.Remove(lbValores.SelectedItem);   
+                lbValores.Items.Remove(lbValores.SelectedItem);
             }
+        }
+
+        private void btnPasarItems_Click(object sender, EventArgs e)
+        {
+            if (lbValores.Items.Count == 0)
+            {
+                MessageBox.Show("Debe haber al menos un nombre ingresado.");
+                return;
+            }
+            foreach (var item in lbValores.Items)
+            {
+                lbSeleccionados.Items.Add(item);
+            }
+            lbValores.Items.Clear();
         }
     }
 }
