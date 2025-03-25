@@ -25,19 +25,21 @@ namespace UTN_Prog3_TP1_Winforms
         private void btnAgregar_Click(object sender, EventArgs e)
         {
 
-            bool esValido = true;
 
 
             //validacion nombres vacios
             if (txtNombre.Text.Trim() == "")
             {
-                esValido = false;
+                
                 MessageBox.Show("Debe ingresar un nombre primero.", "Atencion!");
+                return;
             }
 
 
 
             //validacion nombres repetidos
+
+            bool estaRepetido = true;
 
 
             foreach (var item in lbValores.Items)
@@ -45,7 +47,7 @@ namespace UTN_Prog3_TP1_Winforms
 
                 if (txtNombre.Text.Trim().ToUpper() == item.ToString().Trim().ToUpper())
                 {
-                    esValido = false;
+                    estaRepetido = false;
 
                 }
 
@@ -55,7 +57,7 @@ namespace UTN_Prog3_TP1_Winforms
             {
                 if (txtNombre.Text.Trim().ToUpper() == item.ToString().Trim().ToUpper())
                 {
-                    esValido = false;
+                    estaRepetido = false;
 
                 }
 
@@ -65,7 +67,7 @@ namespace UTN_Prog3_TP1_Winforms
 
             //si  no es valido, no lo acepta.
             //si es valido, lo añade
-            if (!esValido)
+            if (!estaRepetido)
             {
                 MessageBox.Show("Debe ingresar un nombre que no este repetido");
             }
