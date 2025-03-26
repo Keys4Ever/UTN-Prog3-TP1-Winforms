@@ -92,6 +92,7 @@
             this.lbSeleccionados.Name = "lbSeleccionados";
             this.lbSeleccionados.Size = new System.Drawing.Size(188, 212);
             this.lbSeleccionados.TabIndex = 5;
+            
             // 
             // lbValores
             // 

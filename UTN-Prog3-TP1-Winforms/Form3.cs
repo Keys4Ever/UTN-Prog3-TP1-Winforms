@@ -17,9 +17,15 @@ namespace UTN_Prog3_TP1_Winforms
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            string nombreCompleto;
+            nombreCompleto = textBox1.Text + " " + textBox2.Text;
 
+            listBox1.Items.Add(nombreCompleto);
+            textBox1.Clear(); 
+            textBox2.Clear();
         }
+ 
     }
 }
