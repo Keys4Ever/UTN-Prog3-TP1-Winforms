@@ -28,10 +28,26 @@ namespace UTN_Prog3_TP1_Winforms
             {
                 string nombreCompleto;
                 nombreCompleto = nombreBox.Text.Trim() + " " + apellidoBox.Text.Trim();
+                bool nombreExiste = false;
+                foreach (string persona in listaDeNombres.Items)
+                {
+                    if (persona.Trim().ToUpper() == nombreCompleto.ToUpper())
+                    {
+                        nombreExiste = true;
+                        break;
+                    }
+                }
 
-                listaDeNombres.Items.Add(nombreCompleto);
-                nombreBox.Clear();
-                apellidoBox.Clear();
+                if (nombreExiste)
+                {
+                    MessageBox.Show("El nombre ya existe");
+                }
+                else
+                {
+                    listaDeNombres.Items.Add(nombreCompleto);
+                    nombreBox.Clear();
+                    apellidoBox.Clear();
+                }   
             }
         }
 
