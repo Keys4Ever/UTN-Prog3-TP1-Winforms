@@ -19,12 +19,20 @@ namespace UTN_Prog3_TP1_Winforms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nombreCompleto;
-            nombreCompleto = nombreBox.Text + " " + apellidoBox.Text;
 
-            listaDeNombres.Items.Add(nombreCompleto);
-            nombreBox.Clear(); 
-            apellidoBox.Clear();
+            if ((nombreBox.Text.Trim()=="") || (apellidoBox.Text.Trim()== ""))
+            {
+                MessageBox.Show("Debe ingresar nombre y apellido");
+            }
+            else
+            {
+                string nombreCompleto;
+                nombreCompleto = nombreBox.Text.Trim() + " " + apellidoBox.Text.Trim();
+
+                listaDeNombres.Items.Add(nombreCompleto);
+                nombreBox.Clear();
+                apellidoBox.Clear();
+            }
         }
 
         private void botonBorrar_Click(object sender, EventArgs e)

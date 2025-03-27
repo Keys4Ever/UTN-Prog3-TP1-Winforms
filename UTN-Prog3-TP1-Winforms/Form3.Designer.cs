@@ -89,6 +89,7 @@
             // apellidoBox
             // 
             this.apellidoBox.Location = new System.Drawing.Point(150, 182);
+            this.apellidoBox.MaxLength = 50;
             this.apellidoBox.Name = "apellidoBox";
             this.apellidoBox.Size = new System.Drawing.Size(100, 22);
             this.apellidoBox.TabIndex = 1;
@@ -96,6 +97,7 @@
             // nombreBox
             // 
             this.nombreBox.Location = new System.Drawing.Point(150, 145);
+            this.nombreBox.MaxLength = 50;
             this.nombreBox.Name = "nombreBox";
             this.nombreBox.Size = new System.Drawing.Size(100, 22);
             this.nombreBox.TabIndex = 0;
