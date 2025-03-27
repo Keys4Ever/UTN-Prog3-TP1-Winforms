@@ -20,9 +20,17 @@ namespace UTN_Prog3_TP1_Winforms
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if ((nombreBox.Text.Trim()=="") || (apellidoBox.Text.Trim()== ""))
+            if ((nombreBox.Text.Trim()=="") && (apellidoBox.Text.Trim()== ""))
             {
-                MessageBox.Show("Debe ingresar nombre y apellido");
+                MessageBox.Show("Debe ingresar nombre y apellido.", "Atencion!");
+            }
+            else if (nombreBox.Text.Trim() == "")
+            {
+                MessageBox.Show("Debe ingresar un nombre.", "Atencion!");
+            }
+            else if (apellidoBox.Text.Trim() == "")
+            {
+                MessageBox.Show("Debe ingresar un apellido.", "Atencion!");
             }
             else
             {
