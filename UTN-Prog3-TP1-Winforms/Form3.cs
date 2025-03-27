@@ -20,11 +20,11 @@ namespace UTN_Prog3_TP1_Winforms
         private void button1_Click(object sender, EventArgs e)
         {
             string nombreCompleto;
-            nombreCompleto = textBox1.Text + " " + textBox2.Text;
+            nombreCompleto = nombreBox.Text + " " + apellidoBox.Text;
 
-            listBox1.Items.Add(nombreCompleto);
-            textBox1.Clear(); 
-            textBox2.Clear();
+            listaDeNombres.Items.Add(nombreCompleto);
+            nombreBox.Clear(); 
+            apellidoBox.Clear();
         }
  
     }

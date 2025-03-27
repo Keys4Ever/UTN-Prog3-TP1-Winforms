@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.botonAgregar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.apellidoBox = new System.Windows.Forms.TextBox();
+            this.nombreBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.botonBorrar = new System.Windows.Forms.Button();
+            this.listaDeNombres = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -61,23 +61,23 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Apellido:";
             // 
-            // button1
+            // botonAgregar
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(94, 239);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 43);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.botonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.botonAgregar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonAgregar.Location = new System.Drawing.Point(94, 239);
+            this.botonAgregar.Name = "botonAgregar";
+            this.botonAgregar.Size = new System.Drawing.Size(104, 43);
+            this.botonAgregar.TabIndex = 2;
+            this.botonAgregar.Text = "Agregar";
+            this.botonAgregar.UseVisualStyleBackColor = true;
+            this.botonAgregar.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.apellidoBox);
+            this.groupBox1.Controls.Add(this.botonAgregar);
+            this.groupBox1.Controls.Add(this.nombreBox);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(28, 23);
             this.groupBox1.Name = "groupBox1";
@@ -86,24 +86,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingreso de datos";
             // 
-            // textBox2
+            // apellidoBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(150, 182);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 1;
+            this.apellidoBox.Location = new System.Drawing.Point(150, 182);
+            this.apellidoBox.Name = "apellidoBox";
+            this.apellidoBox.Size = new System.Drawing.Size(100, 22);
+            this.apellidoBox.TabIndex = 1;
             // 
-            // textBox1
+            // nombreBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(150, 145);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 0;
+            this.nombreBox.Location = new System.Drawing.Point(150, 145);
+            this.nombreBox.Name = "nombreBox";
+            this.nombreBox.Size = new System.Drawing.Size(100, 22);
+            this.nombreBox.TabIndex = 0;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.listBox1);
+            this.groupBox2.Controls.Add(this.botonBorrar);
+            this.groupBox2.Controls.Add(this.listaDeNombres);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(435, 24);
             this.groupBox2.Name = "groupBox2";
@@ -112,25 +112,25 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Elementos";
             // 
-            // listBox1
+            // botonBorrar
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(32, 44);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(259, 276);
-            this.listBox1.TabIndex = 0;
+            this.botonBorrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.botonBorrar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonBorrar.Location = new System.Drawing.Point(100, 335);
+            this.botonBorrar.Name = "botonBorrar";
+            this.botonBorrar.Size = new System.Drawing.Size(104, 43);
+            this.botonBorrar.TabIndex = 3;
+            this.botonBorrar.Text = "Borrar";
+            this.botonBorrar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // listaDeNombres
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(100, 335);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 43);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Borrar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.listaDeNombres.FormattingEnabled = true;
+            this.listaDeNombres.ItemHeight = 16;
+            this.listaDeNombres.Location = new System.Drawing.Point(32, 44);
+            this.listaDeNombres.Name = "listaDeNombres";
+            this.listaDeNombres.Size = new System.Drawing.Size(259, 276);
+            this.listaDeNombres.TabIndex = 0;
             // 
             // Form3
             // 
@@ -156,12 +156,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button botonAgregar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox apellidoBox;
+        private System.Windows.Forms.TextBox nombreBox;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox listaDeNombres;
+        private System.Windows.Forms.Button botonBorrar;
     }
 }
