@@ -133,6 +133,7 @@
             this.listaDeNombres.Location = new System.Drawing.Point(32, 44);
             this.listaDeNombres.Name = "listaDeNombres";
             this.listaDeNombres.Size = new System.Drawing.Size(259, 276);
+            this.listaDeNombres.Sorted = true;
             this.listaDeNombres.TabIndex = 0;
             // 
             // Form3
