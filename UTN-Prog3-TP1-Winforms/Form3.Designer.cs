@@ -122,6 +122,7 @@
             this.botonBorrar.TabIndex = 3;
             this.botonBorrar.Text = "Borrar";
             this.botonBorrar.UseVisualStyleBackColor = true;
+            this.botonBorrar.Click += new System.EventHandler(this.botonBorrar_Click);
             // 
             // listaDeNombres
             // 

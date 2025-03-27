@@ -26,6 +26,16 @@ namespace UTN_Prog3_TP1_Winforms
             nombreBox.Clear(); 
             apellidoBox.Clear();
         }
- 
+
+        private void botonBorrar_Click(object sender, EventArgs e)
+        {   
+            if(listaDeNombres.SelectedItems.Count <= 0)
+            {
+                MessageBox.Show("Debe seleccionar un item para eliminarlo", "Warning");
+                return;
+            }
+
+            listaDeNombres.Items.RemoveAt(listaDeNombres.SelectedIndex);
+        }
     }
 }
