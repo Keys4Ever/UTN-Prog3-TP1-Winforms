@@ -34,6 +34,7 @@
             this.gbEstadoCivil = new System.Windows.Forms.GroupBox();
             this.rbSoltero = new System.Windows.Forms.RadioButton();
             this.rbCasado = new System.Windows.Forms.RadioButton();
+            this.oficiosList = new System.Windows.Forms.CheckedListBox();
             this.gbSexo.SuspendLayout();
             this.gbEstadoCivil.SuspendLayout();
             this.SuspendLayout();
@@ -105,11 +106,27 @@
             this.rbCasado.Text = "Casado";
             this.rbCasado.UseVisualStyleBackColor = true;
             // 
+            // oficiosList
+            // 
+            this.oficiosList.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.oficiosList.FormattingEnabled = true;
+            this.oficiosList.Items.AddRange(new object[] {
+            "Data Entry",
+            "Operador de PC",
+            "Programador",
+            "Reparador de PC",
+            "Tester"});
+            this.oficiosList.Location = new System.Drawing.Point(165, 138);
+            this.oficiosList.Name = "oficiosList";
+            this.oficiosList.Size = new System.Drawing.Size(160, 79);
+            this.oficiosList.TabIndex = 2;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 450);
+            this.Controls.Add(this.oficiosList);
             this.Controls.Add(this.gbEstadoCivil);
             this.Controls.Add(this.gbSexo);
             this.Name = "Form4";
@@ -131,5 +148,6 @@
         private System.Windows.Forms.GroupBox gbEstadoCivil;
         private System.Windows.Forms.RadioButton rbSoltero;
         private System.Windows.Forms.RadioButton rbCasado;
+        private System.Windows.Forms.CheckedListBox oficiosList;
     }
 }
