@@ -40,7 +40,7 @@ namespace UTN_Prog3_TP1_Winforms
 
             if(oficiosList.CheckedItems.Count == 0)
             {
-                MessageBox.Show("Tiene que seleccionar al menos un oficio");
+                MessageBox.Show(" Sin oficio.");
                 return;
             }
             else
@@ -50,6 +50,7 @@ namespace UTN_Prog3_TP1_Winforms
                     lblOficioList.Text += "-" + item.ToString() + '\n';
                 }
 
+                ///hago visibles los labels al confirmar que se selecciono un oficio
                 lblStatic.Visible = true;
                 lblState.Visible = true;
                 lblStaticOficio.Visible = true;
