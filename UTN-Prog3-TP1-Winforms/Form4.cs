@@ -16,5 +16,32 @@ namespace UTN_Prog3_TP1_Winforms
         {
             InitializeComponent();
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+
+            // Volver a settear todas las labels manualmente
+            lblState.Text = "Estado civil: ";
+            lblSex.Text = "Sexo: ";
+            lblOficioList.Text = "";
+
+            // Labels estáticas. Se settean a visible para que se muestren
+            lblStatic.Visible = true;
+            lblStaticOficio.Visible = true;
+
+            // Settear las labels con los valores de los radio buttons
+            lblState.Text += rbCasado.Checked ? "Casado" : "Soltero"; // Quizás hacer que cambie de casado o soltero a casada o soltera dependiendo del sexo seleccionado? - solo en el output, no en el rb
+            lblState.Visible = true;
+
+            lblSex.Text += rbMasculino.Checked ? "Masculino" : "Femenino";
+            lblSex.Visible = true;
+
+            // Acá setteo el label de los oficios
+            foreach (var item in oficiosList.CheckedItems)
+            {
+                lblOficioList.Text += "-" + item.ToString() + '\n';
+            }
+        }
+
     }
 }
