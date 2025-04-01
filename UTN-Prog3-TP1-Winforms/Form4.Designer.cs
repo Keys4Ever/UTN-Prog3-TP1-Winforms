@@ -36,7 +36,6 @@
             this.rbCasado = new System.Windows.Forms.RadioButton();
             this.oficiosList = new System.Windows.Forms.CheckedListBox();
             this.btnMostrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblStatic = new System.Windows.Forms.Label();
             this.lblSex = new System.Windows.Forms.Label();
             this.lblState = new System.Windows.Forms.Label();
@@ -138,15 +137,6 @@
             this.btnMostrar.UseVisualStyleBackColor = true;
             this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            // 
             // lblStatic
             // 
             this.lblStatic.AutoSize = true;
@@ -210,7 +200,6 @@
             this.Controls.Add(this.lblState);
             this.Controls.Add(this.lblSex);
             this.Controls.Add(this.lblStatic);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.oficiosList);
             this.Controls.Add(this.gbEstadoCivil);
@@ -237,7 +226,6 @@
         private System.Windows.Forms.RadioButton rbCasado;
         private System.Windows.Forms.CheckedListBox oficiosList;
         private System.Windows.Forms.Button btnMostrar;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblStatic;
         private System.Windows.Forms.Label lblSex;
         private System.Windows.Forms.Label lblState;
