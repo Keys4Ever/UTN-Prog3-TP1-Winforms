@@ -63,7 +63,6 @@ namespace UTN_Prog3_TP1_Winforms
             // 
             // btnEjercicio2
             // 
-            this.btnEjercicio2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEjercicio2.Location = new System.Drawing.Point(190, 60);
             this.btnEjercicio2.Name = "btnEjercicio2";
             this.btnEjercicio2.Size = new System.Drawing.Size(116, 41);
